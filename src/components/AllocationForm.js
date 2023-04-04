@@ -58,13 +58,13 @@ const AllocationForm = (props) => {
                         <option defaultValue value="Add" name="Add">Add</option>
                 <option value="Reduce" name="Reduce">Reduce</option>
                   </select>
-                    <div style={{ marginLeft: '2rem' , fontSize: '18px'}}>{Currency}</div>
+                    <div style={{ marginLeft: '2rem' , fontSize: '19px'}}>{Currency}</div>
                     <input
                         required='required'
                         type='number'
                         id='cost'
                         value={cost}
-                        style={{ marginLeft: '0rem' , size: 10}}
+                        style={{ marginLeft: '0.2rem' , size: 10}}
                         onChange={(event) => setCost(event.target.value)}>
                         </input>
 
