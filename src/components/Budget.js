@@ -14,8 +14,8 @@ const Budget = () => {
             <span>Budget: {Currency}
             <input
                 required='required'
-                //type='number'
-                id='cost'
+                type='number'
+                id='budget'
                 value={budget}
                 style={{ marginLeft: '0.2rem', size: 10, width: '90px' }}
                 onChange={event=>setBudget(event.target.value)}
