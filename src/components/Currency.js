@@ -10,11 +10,12 @@ const Currency = () => {
                 payload: val,
             })
     }
-    
 
   return (
         <div className='alert alert-secondary'> Currency {
-      <select name="Currency" id="Currency" onChange={event=>changeCurrency(event.target.value)}>
+      <select name="Currency" id="Currency" onChange={event=>changeCurrency(event.target.value)}
+      style={{ backgroundColor: '#B6E388' }}
+      >
         <option value="$">$ Dollar</option>
         <option value="£">£ Pound</option>
         <option value="€">€ Euro</option>
